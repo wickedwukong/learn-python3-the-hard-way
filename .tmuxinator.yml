@@ -1,0 +1,9 @@
+name: Learn Python3 the Hard Way
+
+windows:
+  - exercises:
+      layout: tiled
+      root: .
+      panes:
+        - git pull && poetry install && python3
+        - git status
